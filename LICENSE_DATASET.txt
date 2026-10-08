@@ -1,0 +1,10 @@
+DATASET NOTE
+
+This project downloads the Apache SpamAssassin Public Mail Corpus at runtime.
+
+Source:
+https://spamassassin.apache.org/old/publiccorpus/
+
+The email messages remain subject to their original terms/rights. The project does not claim ownership of the original email text.
+
+Use the corpus according to the source project's stated terms and for appropriate educational/research purposes.
