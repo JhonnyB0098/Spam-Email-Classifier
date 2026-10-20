@@ -240,33 +240,8 @@ The SpamAssassin corpus is an older public corpus, so modern phishing/spam campa
 
 The model should therefore be retrained with newer, representative data before being used for real-world filtering.
 
-## 14. Suggested viva explanation
 
-**Question: What is the project?**
-
-This project is a machine-learning based spam email classifier. It uses TF-IDF to convert email text into numerical features and Multinomial Naive Bayes to classify an email as spam or ham.
-
-**Question: What dataset did you use?**
-
-The project uses the Apache SpamAssassin Public Mail Corpus, which contains real email messages labeled as spam and non-spam.
-
-**Question: Why Naive Bayes?**
-
-Naive Bayes is computationally efficient and performs well for text classification problems with many word features.
-
-**Question: What is TF-IDF?**
-
-TF-IDF stands for Term Frequency-Inverse Document Frequency. It represents the importance of a word in a document relative to the complete collection of documents.
-
-**Question: What is ham?**
-
-Ham means a legitimate, non-spam email.
-
-**Question: What is the input and output?**
-
-Input is the text of an email. Output is either SPAM or NO SPAM, together with the estimated probabilities.
-
-## 15. Data source
+## 14. Data source
 
 Apache SpamAssassin Public Corpus:
 
